@@ -28,12 +28,14 @@ const Projects = () => {
                   altText="NovaTerim Mobile App"
                   backgroundImg={novaterimCard}
                   projectUrl="/novaterim"
+                  technoUsed="React Native / Expo / MongoDB"
                />
                <ProjectItems
                   title="My Portfolio"
                   altText="My Portfolio"
                   backgroundImg={portfolioCard}
                   projectUrl="/portfolio"
+                  technoUsed="React / NextJS / TailwindCSS "
                />
             </div>
          </div>
