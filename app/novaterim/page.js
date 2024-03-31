@@ -28,24 +28,25 @@ const novaterim = () => {
                <p> Project</p>
                <h2 className="py-2">NovaTerim Mobile App</h2>
                <p className="p-2">
-                  The application, developed using React Native, facilitates
-                  seamless operation across different platforms, offering users
-                  the convenience to electronically sign contracts, upload
-                  required documents, and retrieve their payslips effortlessly.
+                  Cette application, développée en utilisant React Native et Expo, facilite
+                  une opération sans accrocs sur différentes plateformes,
+                  offrant aux utilisateurs la commodité de signer
+                  électroniquement des contrats, de télécharger les documents
+                  requis et de récupérer leurs fiches de paie sans effort.
                </p>
                <p className="p-2">
-                  {" "}
-                  It incorporates a strong user verification system to ensure
-                  access is secure and personal data is safeguarded.
+                  Elle intègre un système de vérification d'utilisateur robuste
+                  pour assurer que l'accès est sécurisé et que les données
+                  personnelles sont protégées.
                </p>
                <p className="p-2">
-                  For data handling, MongoDB serves as the database, offering a
-                  scalable and efficient approach to managing users' information
-                  and documents with security.{" "}
+                  Pour la gestion des données, MongoDB sert de base de données,
+                  offrant une approche évolutive et efficace pour gérer les
+                  informations et les documents des utilisateurs avec sécurité.
                </p>
                <p className="p-2">
-                  The app's design is ensuring it is responsive and visually
-                  appealing on a wide range of devices.{" "}
+                  La conception de l'app garantit qu'elle est responsive et
+                  visuellement attrayante sur une large gamme d'appareils.
                </p>
                <button className="px-8 py-2 mt-4 mr-8"> Demo</button>
                <button className="px-8 py-2 mt-4"> GitHub </button>
@@ -70,7 +71,7 @@ const novaterim = () => {
                </div>
             </div>
             <Link href="/#projects">
-               <p className="underline cursor-pointer">Back to Projects!</p>
+               <p className="underline cursor-pointer">Retour aux projets</p>
             </Link>
          </div>
       </div>

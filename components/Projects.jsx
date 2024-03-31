@@ -21,7 +21,7 @@ const Projects = () => {
             <p className="text-xl tracking-widest uppercase text-[#9ebb5f] px-12">
                Projects
             </p>
-            <h2 className="py-4 ">What I've Done</h2>
+            <h2 className="py-4 ">Soyez curieux, cliquez !</h2>
             <div className="grid h md:grid-cols-2 gap-8">
                <ProjectItems
                   title="NovaTerim Mobile App"

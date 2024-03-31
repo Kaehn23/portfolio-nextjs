@@ -15,7 +15,7 @@ const Main = () => {
          <div className="max-w-[1240px] w-full h-full mx-auto p-2 flex justify-center items-center">
             <div>
                <p className="uppercase text-sm tracking-widest text-gray-600 my-10">
-                  Let's build something together !
+                  Construisons ensemble
                </p>
                {/* Image de profil */}
                <img
@@ -26,13 +26,15 @@ const Main = () => {
                />
                <h1 className="py-4 text-gray-600">
                   {" "}
-                  Hey, I'm <span className="text-[#9ebb5f]"> Jeremy</span>
+                  Hey, je suis  <span className="text-[#9ebb5f]"> Jeremy.</span>
                </h1>
-               <h1 className="p2-4 text-gray-600">A full stack developper !</h1>
+               <h1 className=" text-gray-600">Un developper full stack !</h1>
                <p className="py-4 text-gray-500 max-w-[70] m-auto">
-                  I am passionate about web development and always looking for
-                  new challenges and improve my knowledge.
+                  Je suis passionné par le developpement web & mobile, et toujours à la recherche de nouveaux challenges et opportunités !  
                </p>
+               <a className="py-2 text-2xl underline " href="resume">
+                  Consultez mon CV !
+               </a>
                <div className="flex items-center justify-between max-w-[330px] m-auto py-4">
                   <Link href="https://www.linkedin.com/in/iparraguirre-jeremy-3b391a2a3/">
                      <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">

@@ -65,7 +65,7 @@ const Navbar = () => {
                   </Link>
                   <Link href="/#about">
                      <li className="ml-10 text-sm uppercase hover:border-b">
-                        About
+                        A propos
                      </li>
                   </Link>
                   <Link href="/#skills">
@@ -75,7 +75,7 @@ const Navbar = () => {
                   </Link>
                   <Link href="/#projects">
                      <li className="ml-10 text-sm uppercase hover:border-b">
-                        Projects
+                        Projets
                      </li>
                   </Link>
                   <Link href="/#contact">
@@ -85,7 +85,8 @@ const Navbar = () => {
                   </Link>
                </ul>
                <div onClick={handleNav} className="md:hidden">
-                  <AiOutlineMenu size={25} />
+                  <AiOutlineMenu size={25} 
+                  className="text-white" />
                </div>
             </div>
          </div>
@@ -122,7 +123,7 @@ const Navbar = () => {
                   <div className="border-b border-gray-300 my-4">
                      <p className="w-[85%] md:w-[90%] py-4">
                         {" "}
-                        Let's build something together !{" "}
+                        Construisons ensemble{" "}
                      </p>
                   </div>
                </div>
@@ -141,7 +142,7 @@ const Navbar = () => {
                            onClick={() => setNav(false)}
                            className="py-2 text-sm"
                         >
-                           About
+                           A propos
                         </li>
                      </Link>
                      <Link href="/#skills">
@@ -157,7 +158,7 @@ const Navbar = () => {
                            onClick={() => setNav(false)}
                            className="py-2 text-sm"
                         >
-                           Projects
+                           Projets
                         </li>
                      </Link>
                      <Link href="/#contact">

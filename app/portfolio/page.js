@@ -27,16 +27,30 @@ const portfolio = () => {
             <div className="col-span-4">
                <p> Project</p>
                <h2>Portfolio Website</h2>
-               <p className="p-2">Welcome to my online portfolio, a showcase designed with a philosophy of simplicity and effectiveness.</p>
-               <p className="p-2">Every element on this site has been meticulously chosen to provide a smooth and enjoyable user experience, free from unnecessary complexity.</p>
-               <p className="p-2">Adaptive and responsive, my portfolio ensures intuitive navigation across a wide range of devices, whether on a computer, tablet, or smartphone.</p>
-               <p className="p-2">This site reflects my global approach: clear, direct, and efficient.</p>
+               <p className="p-2">
+                  Bienvenue sur mon portfolio en ligne, conçu avec
+                  une philosophie de simplicité et d'efficacité.
+               </p>
+               <p className="p-2">
+                  Chaque élément de ce site a été méticuleusement choisi pour
+                  fournir une expérience utilisateur fluide et agréable, libre
+                  de toute complexité inutile.
+               </p>
+               <p className="p-2">
+                  Adaptatif et responsive, mon portfolio assure une navigation
+                  intuitive sur une large gamme d'appareils, que ce soit sur un
+                  ordinateur, une tablette ou un smartphone.
+               </p>
+               <p className="p-2">
+                  Ce site reflète mon approche globale : claire, directe et
+                  efficace.
+               </p>
             </div>
             <div className="col-span-4 md:col-span-1 shadow-xl shadow-gray-400 rounded-xl p-4 ">
                <div className="p-2">
                   <p className="text-center font-bold pb-2"> Technologies</p>
                   <div className="grid grid-cols-3 md:grid-cols-1">
-                  <p className="text-gray-600 py-2 flex items-center">
+                     <p className="text-gray-600 py-2 flex items-center">
                         <RiRadioButtonFill className="pr-1" /> React
                      </p>
                      <p className="text-gray-600 py-2 flex items-center">

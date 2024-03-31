@@ -11,111 +11,47 @@ const Contact = () => {
    };
 
    return (
-      <div id="contact" className="w-full lg:h-screen p2 py-16">
-         <div className="max-w-[1240px] m-auto px-2 py-8 w-full">
-            <p className="text-xl tracking-widest uppercase text-[#9ebb5f] px-12">
-               Contact me
+      <div id="contact" className="w-full flex flex-col items-center justify-center py-16">
+         <div className="max-w-4xl px-4 w-full">
+            <p className="text-xl tracking-widest uppercase text-[#9ebb5f] text-center m-8">
+               Contactez moi
             </p>
-            <h2 className="py-4">Get In Touch!</h2>
-            <div className="grid md:grid-cols-1 lg:grid-cols-2 gap-8">
+            <h2 className="py-4 text-center">Par ici !</h2>
+            <div className="flex flex-col items-center justify-center">
                {/* Image Section */}
-               <div className="w-full h-full shadow-xl shadow-gray-400 rounded-xl p-4">
-                  <div className="h-full rounded-xl py-4">
-                     <img
-                        className="rounded-xl hover:scale-105 ease-in duration-300"
-                        src="https://images.unsplash.com/photo-1534536281715-e28d76689b4d?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-                        width={400}
-                        alt=""
-                     />
-                     <div>
-                        <h2 className="p-4">Jérémy Iparraguirre</h2>
-                        <p>Fullstack Developper</p>
-                        <p className="py-4 ">
-                           I'm currently looking for an intership,{" "}
-                           <span className="font-bold">
-                              from 3 to 6 months,
-                           </span>{" "}
-                           to strenghten and upgrade my knowledge!
-                        </p>
-                        <p>I'm also open for freelance missions.</p>
-                     </div>
-                     <div className="pt-8 underline">Connect With Me :</div>
-                     <div className="flex items-center justify-between py-8 mx-10">
-                        <Link href="https://www.linkedin.com/in/iparraguirre-jeremy-3b391a2a3/">
-                           <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
-                              <FaLinkedinIn />
-                           </div>
-                        </Link>
-                        <Link href="https://github.com/Kaehn23">
-                           <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
-                              <FaGithub />
-                           </div>
-                        </Link>
-                        <div
-                           className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300"
-                           onClick={handleMailClick}
-                        >
-                           <AiOutlineMail />
-                        </div>
-                     </div>
+               <div className="w-full shadow-xl shadow-gray-400 rounded-xl p-4 flex flex-col items-center justify-center">
+                  <img
+                     className="rounded-xl hover:scale-105 ease-in duration-300 max-w-md w-full" // Ajustement ici pour limiter la taille de l'image
+                     src="https://images.unsplash.com/photo-1534536281715-e28d76689b4d?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                     alt=""
+                  />
+                  <div className="text-center mt-4">
+                     <h2 className="p-4">Jérémy Iparraguirre</h2>
+                     <p>Fullstack Developer</p>
+                     <p className="py-4">
+                        Je suis actuellement à la recherche d'un stage, <span className="font-bold">de 3 à 6 mois,</span> pour consolider et approfondir mes compétences.
+                     </p>
+                     <p>Je suis aussi ouvert a l'opportunité d'une alternance.</p>
+                     <p className="py-4">Je suis disponible pour des missions freelance.</p>
                   </div>
-               </div>
-
-               {/* Form Section */}
-               <div className="w-full h-auto shadow-xl shadow-gray-400 rounded-xl p-4">
-                  <div className="p-4">
-                     <form>
-                        <div className="grid grid-cols-1 gap-4 w-full py-2">
-                           <div className="flex flex-col">
-                              <label className="uppercase text-sm py-2">
-                                 Name
-                              </label>
-                              <input
-                                 className="border-2 rounded-lg p-3 flex border-gray-300"
-                                 type="text"
-                              />
-                           </div>
-                           <div className="flex flex-col">
-                              <label className="uppercase text-sm py-2">
-                                 Phone Number
-                              </label>
-                              <input
-                                 className="border-2 rounded-lg p-3 flex border-gray-300"
-                                 type="text"
-                              />
-                           </div>
-                           <div className="flex flex-col">
-                              <label className="uppercase text-sm py-2">
-                                 Email
-                              </label>
-                              <input
-                                 className="border-2 rounded-lg p-3 flex border-gray-300"
-                                 type="email"
-                              />
-                           </div>
-                           <div className="flex flex-col">
-                              <label className="uppercase text-sm py-2">
-                                 Subject
-                              </label>
-                              <input
-                                 className="border-2 rounded-lg p-3 flex border-gray-300"
-                                 type="text"
-                              />
-                           </div>
-                           <div className="flex flex-col">
-                              <label className="uppercase text-sm py-2">
-                                 Message
-                              </label>
-                              <textarea
-                                 className="border-2 rounded-lg p-3 flex border-gray-300"
-                                 rows="5"
-                              />
-                           </div>
+                  <div className="pt-8 underline text-center">Connect With Me :</div>
+                  <div className="flex items-center justify-center py-8 gap-4">
+                     <Link href="https://www.linkedin.com/in/iparraguirre-jeremy-3b391a2a3/">
+                        <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
+                           <FaLinkedinIn />
                         </div>
-                        <button className="w-full p-4 text-gray-700 font-bold mt-4">
-                           Send Message
-                        </button>
-                     </form>
+                     </Link>
+                     <Link href="https://github.com/Kaehn23">
+                        <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
+                           <FaGithub />
+                        </div>
+                     </Link>
+                     <div
+                        className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300"
+                        onClick={handleMailClick}
+                     >
+                        <AiOutlineMail />
+                     </div>
                   </div>
                </div>
             </div>
@@ -133,5 +69,6 @@ const Contact = () => {
       </div>
    );
 };
+
 
 export default Contact;

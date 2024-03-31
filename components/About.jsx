@@ -11,23 +11,30 @@ const About = () => {
             <div className="cols-span-2">
                <p className="uppercase text-xl tracking-widest text-[#9ebb5f] px-12">
                   {" "}
-                  About{" "}
+                  A propos{" "}
                </p>
-               <h2 className="py-4"> Who I Am </h2>
+               <h2 className="py-4"> Qui suis je ? </h2>
 
                <p className="py-2 text-gray-600">
                   {" "}
-                  Hello! I'm Jeremy. A passionate, web developper.{" "}
+                  Je suis Jeremy Iparraguirre. Developper web ... Mais pas que !{" "}
                </p>
 
                <p className="py-2 text-gray-600">
                   {" "}
-                  BIO BIO BIO BIO BIO BIO BIO BIO{" "}
+                  Je suis un passionné de nature, de voyages, de musique & d'art
+                  sous ses formes les plus variées.
                </p>
+               <p className="py-2 text-gray-600">
+                  Quand je ne suis pas fourré devant mon ordinateur, je pars
+                  explorer le monde et les alentours, pour revenir avec des
+                  idées fraîches, et de nouvelles perspectives !
+               </p>
+
                <Link href="/#projects">
                   <p className="py-2 text-gray-600 underline cursor-pointer">
                      {" "}
-                     Check out my latest projects!
+                     Consultez mes projets !
                   </p>
                </Link>
             </div>
