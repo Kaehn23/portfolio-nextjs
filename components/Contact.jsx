@@ -21,7 +21,7 @@ const Contact = () => {
                {/* Image Section */}
                <div className="w-full shadow-xl shadow-gray-400 rounded-xl p-4 flex flex-col items-center justify-center">
                   <img
-                     className="rounded-xl hover:scale-105 ease-in duration-300 max-w-md w-full" // Ajustement ici pour limiter la taille de l'image
+                     className="rounded-xl hover:scale-105 ease-in duration-300 max-w-md w-full" 
                      src="https://images.unsplash.com/photo-1534536281715-e28d76689b4d?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                      alt=""
                   />
@@ -31,10 +31,10 @@ const Contact = () => {
                      <p className="py-4">
                         Je suis actuellement à la recherche d'un stage, <span className="font-bold">de 3 à 6 mois,</span> pour consolider et approfondir mes compétences.
                      </p>
-                     <p>Je suis aussi ouvert a l'opportunité d'une alternance.</p>
-                     <p className="py-4">Je suis disponible pour des missions freelance.</p>
+                     <p>Egalement ouvert a l'opportunité d'une alternance.</p>
+                     <p className="py-4">Je suis aussi disponible pour des missions freelance.</p>
                   </div>
-                  <div className="pt-8 underline text-center">Connect With Me :</div>
+                  <div className="pt-8 underline text-center">Contactez moi :</div>
                   <div className="flex items-center justify-center py-8 gap-4">
                      <Link href="https://www.linkedin.com/in/iparraguirre-jeremy-3b391a2a3/">
                         <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">

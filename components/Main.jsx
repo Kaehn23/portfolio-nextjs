@@ -28,7 +28,7 @@ const Main = () => {
                   {" "}
                   Hey, je suis  <span className="text-[#9ebb5f]"> Jeremy.</span>
                </h1>
-               <h1 className=" text-gray-600">Un developper full stack !</h1>
+               <h1 className=" text-gray-600">Un developpeur full stack !</h1>
                <p className="py-4 text-gray-500 max-w-[70] m-auto">
                   Je suis passionné par le developpement web & mobile, et toujours à la recherche de nouveaux challenges et opportunités !  
                </p>

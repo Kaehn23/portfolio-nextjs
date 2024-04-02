@@ -17,7 +17,7 @@ const About = () => {
 
                <p className="py-2 text-gray-600">
                   {" "}
-                  Je suis Jeremy Iparraguirre. Developper web ... Mais pas que !{" "}
+                  Je suis Jeremy Iparraguirre. Developpeur web ... Mais pas que !{" "}
                </p>
 
                <p className="py-2 text-gray-600">
@@ -26,27 +26,34 @@ const About = () => {
                   sous ses formes les plus variées.
                </p>
                <p className="py-2 text-gray-600">
-                  Quand je ne suis pas fourré devant mon ordinateur, je pars
-                  explorer le monde et les alentours, pour revenir avec des
-                  idées fraîches, et de nouvelles perspectives !
+                  Quand je ne suis pas devant mon ordinateur, je pars explorer
+                  le monde et les alentours, pour revenir avec des idées
+                  fraîches, et de nouvelles perspectives !
+               </p>
+               <p className="py-2 text-gray-600">
+                  J'ai pris le partis de ne montrer que les projets "from
+                  scratch" que j'ai réalisé, pour vous montrer ce dont je suis
+                  capable, et ce que je peux vous apporter.
                </p>
 
                <Link href="/#projects">
                   <p className="py-2 text-gray-600 underline cursor-pointer">
                      {" "}
-                     Consultez mes projets !
+                     Consultez mes projets ! 
                   </p>
                </Link>
             </div>
             <div className="w-full h-auto m-auto shadow-xl shadow-gray-400 rounded-xl flex items-center justify-center p-4 hover:scale-105 ease-in duration-300">
-               <img
-                  className="rounded-xl "
-                  src="https://images.unsplash.com/photo-1633356122544-f134324a6cee?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-                  width={400}
-                  height={400}
-                  layout="reponsive"
-                  alt="about"
-               />
+               <Link href="/#projects">
+                  <img
+                     className="rounded-xl "
+                     src="https://images.unsplash.com/photo-1633356122544-f134324a6cee?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                     width={400}
+                     height={400}
+                     layout="reponsive"
+                     alt="about"
+                  />
+               </Link>
             </div>
          </div>
       </div>

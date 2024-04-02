@@ -28,9 +28,9 @@ const novaterim = () => {
                <p> Project</p>
                <h2 className="py-2">NovaTerim Mobile App</h2>
                <p className="p-2">
-                  Cette application, développée en utilisant React Native et Expo, facilite
-                  une opération sans accrocs sur différentes plateformes,
-                  offrant aux utilisateurs la commodité de signer
+                  Cette application, développée en utilisant React Native et
+                  Expo, facilite une opération sans accrocs sur différentes
+                  plateformes, offrant aux utilisateurs la commodité de signer
                   électroniquement des contrats, de télécharger les documents
                   requis et de récupérer leurs fiches de paie sans effort.
                </p>
@@ -45,10 +45,14 @@ const novaterim = () => {
                   informations et les documents des utilisateurs avec sécurité.
                </p>
                <p className="p-2">
-                  La conception de l'app garantit qu'elle est responsive et
+                  La conception de l'app garantit qu'elle soit responsive et
                   visuellement attrayante sur une large gamme d'appareils.
                </p>
-               <button className="px-8 py-2 mt-4 mr-8"> Demo</button>
+               <button className="px-8 py-2 mt-4 mr-8">
+                  <Link href="https://www.youtube.com/watch?v=vHH9Yl_J7hM">
+                  Demo
+                  </Link>
+               </button>
                <button className="px-8 py-2 mt-4"> GitHub </button>
             </div>
             <div className="col-span-4 md:col-span-1 shadow-xl shadow-gray-400 rounded-xl p-4 ">

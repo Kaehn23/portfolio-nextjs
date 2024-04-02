@@ -63,7 +63,7 @@ const portfolio = () => {
                </div>
             </div>
             <Link href="/#projects">
-               <p className="underline cursor-pointer">Back to Projects!</p>
+               <p className="underline cursor-pointer">Retour aux projets</p>
             </Link>
          </div>
       </div>
