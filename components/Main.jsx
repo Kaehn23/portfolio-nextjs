@@ -19,7 +19,7 @@ const Main = () => {
                </p>
                {/* Image de profil */}
                <img
-                  src="/assets/profilepic3.png"
+                  src="/assets/profilPic1.png"
                   alt="Votre Nom"
                   className="rounded-full shadow-xl shadow-gray-800 hover:scale-110 ease-in duration-500 mx-auto my-4"
                   style={{ maxWidth: "200px", maxHeight: "200px" }}
