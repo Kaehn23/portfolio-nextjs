@@ -60,17 +60,17 @@ const Navbar = () => {
                style={{color: `${linkColor}`}} className="hidden md:flex">
                   <Link href="/">
                      <li className="ml-10 text-sm uppercase hover:border-b">
-                        Home
+                     Accueil
                      </li>
                   </Link>
                   <Link href="/#about">
                      <li className="ml-10 text-sm uppercase hover:border-b">
-                        A propos
+                     À propos
                      </li>
                   </Link>
                   <Link href="/#skills">
                      <li className="ml-10 text-sm uppercase hover:border-b">
-                        Skills
+                     Technologies
                      </li>
                   </Link>
                   <Link href="/#projects">
@@ -134,7 +134,7 @@ const Navbar = () => {
                            onClick={() => setNav(false)}
                            className="py-2 text-sm"
                         >
-                           Home
+                           Accueil
                         </li>
                      </Link>
                      <Link href="/#about">
@@ -142,7 +142,7 @@ const Navbar = () => {
                            onClick={() => setNav(false)}
                            className="py-2 text-sm"
                         >
-                           A propos
+                           À propos
                         </li>
                      </Link>
                      <Link href="/#skills">
@@ -150,7 +150,7 @@ const Navbar = () => {
                            onClick={() => setNav(false)}
                            className="py-2 text-sm"
                         >
-                           Skills
+                           Technologies
                         </li>
                      </Link>
                      <Link href="/#projects">

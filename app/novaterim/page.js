@@ -25,7 +25,7 @@ const novaterim = () => {
          </div>
          <div className="max-w-[1240px] mx-auto p-2 grid md:grid-cols-5 gap-8 pt-8">
             <div className="col-span-4">
-               <p> Project</p>
+               <p> Projet</p>
                <h2 className="py-2">NovaTerim Mobile App</h2>
                <p className="p-2">
                   Cette application, développée en utilisant React Native et
@@ -53,7 +53,7 @@ const novaterim = () => {
                   Demo
                   </Link>
                </button>
-               <button className="px-8 py-2 mt-4"> GitHub </button>
+               
             </div>
             <div className="col-span-4 md:col-span-1 shadow-xl shadow-gray-400 rounded-xl p-4 ">
                <div className="p-2">

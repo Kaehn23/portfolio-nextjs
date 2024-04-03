@@ -7,11 +7,11 @@ const About = () => {
          id="about"
          className="w-full md:h-screen p-2 flex items-center py-16"
       >
-         <div className="max-w-[1240px] m-auto md:grid grid-cols-3 gap-8">
+         <div className="max-w-[1240px] m-auto md:grid grid-cols-2 gap-8">
             <div className="cols-span-2">
                <p className="uppercase text-xl tracking-widest text-[#9ebb5f] px-12">
                   {" "}
-                  A propos{" "}
+                  À propos{" "}
                </p>
                <h2 className="py-4"> Qui suis je ? </h2>
 

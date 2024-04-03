@@ -27,14 +27,14 @@ const Contact = () => {
                   />
                   <div className="text-center mt-4">
                      <h2 className="p-4">Jérémy Iparraguirre</h2>
-                     <p>Fullstack Developer</p>
+                     <p>Fullstack Developper</p>
                      <p className="py-4">
                         Je suis actuellement à la recherche d'un stage, <span className="font-bold">de 3 à 6 mois,</span> pour consolider et approfondir mes compétences.
                      </p>
-                     <p>Egalement ouvert a l'opportunité d'une alternance.</p>
+                     <p>Également ouvert à l'opportunité d'une alternance.</p>
                      <p className="py-4">Je suis aussi disponible pour des missions freelance.</p>
                   </div>
-                  <div className="pt-8 underline text-center">Contactez moi :</div>
+                  <div className="pt-8 underline text-center">Contactez-moi :</div>
                   <div className="flex items-center justify-center py-8 gap-4">
                      <Link href="https://www.linkedin.com/in/iparraguirre-jeremy-3b391a2a3/">
                         <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">

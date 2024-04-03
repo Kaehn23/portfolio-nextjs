@@ -68,31 +68,31 @@ const Navbar = () => {
                   height="50"
                />
             </Link>
-            <div>
+            <div className="mr-4">
                <ul 
                style={{color: `${linkColor}`}} className="hidden md:flex">
                   <Link href="/">
-                     <li className="ml-10 text-sm uppercase hover:border-b">
-                        Home
+                     <li className="ml-10 text-sm uppercase hover:border-b hover:border-gray-500">
+                     Accueil
                      </li>
                   </Link>
                   <Link href="/#about">
-                     <li className="ml-10 text-sm uppercase hover:border-b">
-                        A propos
+                     <li className="ml-10 text-sm uppercase hover:border-b hover:border-gray-500">
+                     À propos
                      </li>
                   </Link>
                   <Link href="/#skills">
-                     <li className="ml-10 text-sm uppercase hover:border-b">
-                        Skills
+                     <li className="ml-10 text-sm uppercase hover:border-b hover:border-gray-500">
+                        Technologies
                      </li>
                   </Link>
                   <Link href="/#projects">
-                     <li className="ml-10 text-sm uppercase hover:border-b">
+                     <li className="ml-10 text-sm uppercase hover:border-b hover:border-gray-500">
                         Projets
                      </li>
                   </Link>
                   <Link href="/#contact">
-                     <li className="ml-10 text-sm uppercase hover:border-b">
+                     <li className="ml-10 text-sm uppercase hover:border-b hover:border-gray-500">
                         Contact
                      </li>
                   </Link>
@@ -144,9 +144,9 @@ const Navbar = () => {
                      <Link href="/">
                         <li
                            onClick={() => setNav(false)}
-                           className="py-2 text-sm"
+                           className="py-2 text-sm "
                         >
-                           Home
+                           Accueil
                         </li>
                      </Link>
                      <Link href="/#about">
@@ -154,7 +154,7 @@ const Navbar = () => {
                            onClick={() => setNav(false)}
                            className="py-2 text-sm"
                         >
-                           A propos
+                           À propos
                         </li>
                      </Link>
                      <Link href="/#skills">
@@ -162,7 +162,7 @@ const Navbar = () => {
                            onClick={() => setNav(false)}
                            className="py-2 text-sm"
                         >
-                           Skills
+                           Technologies
                         </li>
                      </Link>
                      <Link href="/#projects">
