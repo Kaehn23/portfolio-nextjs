@@ -48,12 +48,9 @@ const novaterim = () => {
                   La conception de l'app garantit qu'elle soit responsive et
                   visuellement attrayante sur une large gamme d'appareils.
                </p>
-               <button className="px-8 py-2 mt-4 mr-8">
-                  <Link href="https://www.youtube.com/watch?v=vHH9Yl_J7hM">
-                  Demo
-                  </Link>
-               </button>
-               
+               <Link href="https://www.youtube.com/watch?v=vHH9Yl_J7hM">
+                  <button className="px-8 py-2 mt-4 mr-8">Demo</button>
+               </Link>
             </div>
             <div className="col-span-4 md:col-span-1 shadow-xl shadow-gray-400 rounded-xl p-4 ">
                <div className="p-2">

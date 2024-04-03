@@ -23,7 +23,7 @@ const About = () => {
                <p className="py-2 text-gray-600">
                   {" "}
                   Je suis un passionné de nature, de voyages, de musique & d'art
-                  sous ses formes les plus variées.
+                  sous leurs formes les plus variées.
                </p>
                <p className="py-2 text-gray-600">
                   Quand je ne suis pas devant mon ordinateur, je pars explorer
@@ -31,8 +31,8 @@ const About = () => {
                   fraîches, et de nouvelles perspectives !
                </p>
                <p className="py-2 text-gray-600">
-                  J'ai pris le partis de ne montrer que les projets "from
-                  scratch" que j'ai réalisé, pour vous montrer ce dont je suis
+                  J'ai pris le parti de ne montrer que les projets "from
+                  scratch" que j'ai réalisés, pour vous montrer ce dont je suis
                   capable, et ce que je peux vous apporter.
                </p>
 
