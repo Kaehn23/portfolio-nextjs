@@ -19,7 +19,7 @@ const Projectitems = ({ title, backgroundImg, altText, projectUrl,technoUsed }) 
             <p className="pb-4 pt-2 text-center tracking-widest" >{technoUsed}</p>
             <Link href={projectUrl} >
                <p className="text-center py-3 rounded-lg bg-white text-gray-700 font-bold text-lg cursor-pointer">
-                  Learn more
+                  Découvrir
                </p>
             </Link >
          </div>
