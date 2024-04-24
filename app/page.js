@@ -12,7 +12,11 @@ export default function Home() {
          <Head>
            <title>Portfolio de Jeremy - Développeur Web</title>
            <meta name="description" content="Découvrez le portfolio de Jeremy, développeur web, incluant ses compétences, projets, et informations de contact." />
-           
+           <meta name="keywords" content="Jeremy, développeur web, portfolio, projets web, compétences en programmation, contact développeur" />
+           <meta name="robots" content="index, follow" />
+           <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+           <meta name="author" content="Jeremy" />
+           <meta name="copyright" content="Copyright © 2023 Jeremy" />
          </Head>
          <header>
            <Navbar />
