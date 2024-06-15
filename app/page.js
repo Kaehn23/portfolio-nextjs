@@ -25,8 +25,8 @@ export default function Home() {
                   name="viewport"
                   content="width=device-width, initial-scale=1.0"
                />
-               <meta name="author" content="Jeremy" />
-               <meta name="copyright" content="Copyright © 2023 Jeremy" />
+               <meta name="author" content="Jeremyy" />
+               <meta name="copyright" content="Copyright © 2024 Jeremy" />
             </Head>
 
             <header>

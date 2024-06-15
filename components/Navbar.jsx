@@ -9,23 +9,11 @@ import { FaGithub, FaLinkedinIn } from "react-icons/fa";
 const Navbar = () => {
    const [nav, setNav] = useState(false);
    const [shadow, setShadow] = useState(false);
-   const [navBg, setNavBg] = useState('#ecf0f3');
-   const [linkColor, setLinkColor] = useState('#1f9237')
+   const [navBg, setNavBg] = useState();
+   const [linkColor, setLinkColor] = useState('#ecf0f3')
    const router = useRouter()
 
-// NavBar route color setting
-   useEffect(() => {
-      if (
-         router.pathname === "/novaterim" ||
-         router.pathname === "/portfolio" 
-      ) {
-         setNavBg('transparent')
-         setLinkColor('#ecf0f3')
-      } else {
-         setNavBg('#ecf0f3')
-         setLinkColor('#000000')
-      }
-   },[router])
+
 
    const handleNav = () => {
       setNav(!nav);
@@ -58,47 +46,47 @@ const Navbar = () => {
                : "fixed w-full h-20 z-[100] "               
          }
       >
-         <div className="flex justify-between items-center w-full h-full px-2 2xl:px-16">
+         <div className="flex justify-between items-center w-full h-full px-2 2xl:px-16 glass-effect-bar">
             <Link href="/">
                <Image
-               
                   src="/assets/navLogo.png"
                   alt="a logo"
                   width="40"
                   height="50"
                />
             </Link>
-            <div className="mr-4">
+            <div className="animate-reveal">
                <ul 
                style={{color: `${linkColor}`}} className="hidden md:flex">
                   <Link href="/">
-                     <li className="ml-10 text-sm uppercase hover:border-b hover:border-gray-500">
+                     <li className="ml-10 text-sm uppercase hover:border-b glass-effect">
                      Accueil
                      </li>
                   </Link>
                   <Link href="/#about">
-                     <li className="ml-10 text-sm uppercase hover:border-b hover:border-gray-500">
+                     <li className="ml-10 text-sm uppercase hover:border-b glass-effect">
                      À propos
                      </li>
                   </Link>
                   <Link href="/#skills">
-                     <li className="ml-10 text-sm uppercase hover:border-b hover:border-gray-500">
-                        Technologies
+                     <li className="ml-10 text-sm uppercase hover:border-b glass-effect">
+                     Technologies
                      </li>
                   </Link>
                   <Link href="/#projects">
-                     <li className="ml-10 text-sm uppercase hover:border-b hover:border-gray-500">
+                     <li className="ml-10 text-sm uppercase hover:border-b glass-effect">
                         Projets
                      </li>
                   </Link>
                   <Link href="/#contact">
-                     <li className="ml-10 text-sm uppercase hover:border-b hover:border-gray-500">
+                     <li className="ml-10 text-sm uppercase hover:border-b glass-effect">
                         Contact
                      </li>
                   </Link>
                </ul>
                <div onClick={handleNav} className="md:hidden">
-                  <AiOutlineMenu size={25} />
+                  <AiOutlineMenu size={25} 
+                  className="text-white" />
                </div>
             </div>
          </div>
@@ -144,7 +132,7 @@ const Navbar = () => {
                      <Link href="/">
                         <li
                            onClick={() => setNav(false)}
-                           className="py-2 text-sm "
+                           className="py-2 text-sm"
                         >
                            Accueil
                         </li>
@@ -184,7 +172,7 @@ const Navbar = () => {
                   </ul>
                   <div className="pt-40 ">
                      <p className="uppercase tracking-widest text-[#9ebb5f]">
-                        Contactez moi
+                        Let's connect
                      </p>
                      <div className="flex items-center justify-between my-3 w-full sm:w-[60%] ">
                         <Link href="https://www.linkedin.com/in/iparraguirre-jeremy-3b391a2a3/">

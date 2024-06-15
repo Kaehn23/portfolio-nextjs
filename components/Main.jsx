@@ -4,6 +4,7 @@ import React from "react";
 import Link from "next/link";
 import { AiOutlineMail } from "react-icons/ai";
 import { FaGithub, FaLinkedinIn } from "react-icons/fa";
+import MatrixEffect from "./MatrixEffect";
 
 const Main = () => {
    const handleMailClick = () => {
@@ -19,48 +20,49 @@ const Main = () => {
                content="Bienvenue sur le portfolio de Jeremy, un développeur full stack passionné par le développement web et mobile. Découvrez mes projets et compétences."
             />
          </Head>
-         <div id="home" className="w-full h-screen text-center">
-            <div className="max-w-[1240px] w-full h-full mx-auto p-2 flex justify-center items-center">
-               <div>
-                  <p className="uppercase text-sm tracking-widest text-gray-600 my-10">
+         <div id="home" className="w-full h-screen text-center relative md:p-4">
+            <MatrixEffect />
+            <div className="max-w-[1240px] w-full h-full mx-auto  p-2 flex justify-center items-center relative z-1">
+               <div className=" p-8 md:mt-16  ">
+                  <p className="uppercase text-sm tracking-widest text-white-600 my-4 md:my-6  animate-reveal glass-effect">
                      Construisons ensemble
                   </p>
+
                   {/* Image de profil */}
                   <img
                      src="/assets/profilePic1.png"
                      alt="Votre Nom"
-                     className="rounded-full shadow-xl shadow-gray-800 hover:scale-110 ease-in duration-500 mx-auto my-4"
+                     className="rounded-full shadow-xl shadow-[#0F0]/50 hover:scale-110 ease-in duration-500 mx-auto my-8 animate-reveal2"
                      style={{ maxWidth: "200px", maxHeight: "200px" }}
                   />
-                  <h1 className="py-4 text-gray-600">
-                     {" "}
-                     Hey, je suis{" "}
-                     <span className="text-[#9ebb5f]"> Jeremy.</span>
-                  </h1>
-                  <h1 className=" text-gray-600">
-                     Un développeur full stack !
-                  </h1>
-                  <p className="py-4 text-gray-500 max-w-[70] m-auto">
-                     Je suis passionné par le développement web & mobile, et
-                     toujours à la recherche de nouveaux challenges et
-                     opportunités !
-                  </p>
-                  <a className="py-2 text-2xl underline " href="resume">
-                     Consultez mon CV !
-                  </a>
-                  <div className="flex items-center justify-between max-w-[330px] m-auto py-4">
+                  <div className="animate-reveal2 glass-effect ">
+                     <h1 className="py-4 ">
+                        {" "}
+                        Hey, je suis{" "}
+                        <span className="text-[#0F0]"> Jeremy.</span>
+                     </h1>
+                     <h1 className="">Un développeur full stack !</h1>
+                     <p className="py-4 max-w-[70%] m-auto ">
+                        Je suis passionné par le développement web & mobile.
+                     </p>
+                     <a className="py-2 text-2xl underline " href="resume">
+                        Consultez mon CV !
+                     </a>
+                  </div>
+
+                  <div className="flex items-center justify-between max-w-[330px] m-auto py-4 ">
                      <Link href="https://www.linkedin.com/in/iparraguirre-jeremy-3b391a2a3/">
-                        <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
+                        <div className="rounded-full shadow-lg glass-effect2 animate-reveal3 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
                            <FaLinkedinIn />
                         </div>
                      </Link>
                      <Link href="https://github.com/Kaehn23">
-                        <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
+                     <div className="rounded-full shadow-lg glass-effect2 animate-reveal3 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
                            <FaGithub />
                         </div>
                      </Link>
                      <div
-                        className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300"
+                        className="rounded-full shadow-lg glass-effect2 animate-reveal3 p-6 cursor-pointer hover:scale-110 ease-in duration-300"
                         onClick={handleMailClick}
                      >
                         <AiOutlineMail />
