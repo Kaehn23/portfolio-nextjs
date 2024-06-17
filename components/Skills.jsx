@@ -163,7 +163,7 @@ function Skills() {
                      </div>
                   </div>
                </div>
-               <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300 glass-effect">
+               <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300 bg-[#0F3]/50">
                   <div className="grid grid-cols-2 gap-4 justify-center items-center">
                      <div className="m-auto ">
                         <Image

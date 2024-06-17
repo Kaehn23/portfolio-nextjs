@@ -17,7 +17,8 @@ const About = () => {
 
                <p className="py-2 ">
                   {" "}
-                  Je suis Jeremy Iparraguirre. Developpeur web ... Mais pas que !{" "}
+                  Je suis Jeremy Iparraguirre. Developpeur web ... Mais pas que
+                  !{" "}
                </p>
 
                <p className="py-2 ">
@@ -39,7 +40,7 @@ const About = () => {
                <Link href="/#projects">
                   <p className="py-2  underline cursor-pointer">
                      {" "}
-                     Consultez mes projets ! 
+                     Consultez mes projets !
                   </p>
                </Link>
             </div>
