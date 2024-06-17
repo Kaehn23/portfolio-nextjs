@@ -61,6 +61,8 @@ html {
   padding: 15px; /* Espacement interne */  
 }
 
+
+
 .glass-effect-bar {
   background: rgba(255, 255, 255, 0.1); /* Arrière-plan semi-transparent */ 
   backdrop-filter: blur(2px); /* Effet de flou */
@@ -97,13 +99,13 @@ html {
 }
 
 .animate-reveal {
-  animation: apparition 2s linear forwards;
+  animation: apparition 1s linear forwards;
 }
 .animate-reveal2 {
-  animation: apparition 3s linear forwards;
+  animation: apparition 1.5s linear forwards;
 }
 .animate-reveal3 {
-  animation: apparition 4s linear forwards;
+  animation: apparition 2s linear forwards;
 }
 
 @keyframes apparition2 {

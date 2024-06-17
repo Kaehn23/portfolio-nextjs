@@ -9,7 +9,7 @@ const About = () => {
       >
          <div className="max-w-[1240px] m-auto md:grid grid-cols-2 gap-8">
             <div className="cols-span-2">
-               <p className="uppercase text-xl tracking-widest text-[#0F3] px-12">
+               <p className="uppercase text-xl  tracking-widest text-[#0F3] px-12 ">
                   {" "}
                   À propos{" "}
                </p>
