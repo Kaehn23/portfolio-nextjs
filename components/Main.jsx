@@ -23,7 +23,7 @@ const Main = () => {
          <div id="home" className="w-full h-screen text-center relative md:p-4">
             <MatrixEffect />
             <div className="max-w-[1240px] w-full h-full mx-auto  p-2 flex justify-center items-center relative z-1">
-               <div className=" p-8 md:mt-16  ">
+               <div className=" md:mt-16 sm:mt-4 ">
                   <p className="uppercase text-sm tracking-widest text-white-600 my-4 md:my-6  animate-reveal glass-effect">
                      Construisons ensemble
                   </p>
