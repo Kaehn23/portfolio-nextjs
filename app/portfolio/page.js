@@ -28,8 +28,8 @@ const portfolio = () => {
                <p> Projet</p>
                <h2>Portfolio Website</h2>
                <p className="p-2">
-                  Bienvenue sur mon portfolio en ligne, conçu avec
-                  une philosophie de simplicité et d'efficacité.
+                  Bienvenue sur mon portfolio en ligne, conçu avec une
+                  philosophie de simplicité et d'efficacité.
                </p>
                <p className="p-2">
                   Chaque élément de ce site a été méticuleusement choisi pour
@@ -46,17 +46,17 @@ const portfolio = () => {
                   efficace.
                </p>
             </div>
-            <div className="col-span-4 md:col-span-1 shadow-xl shadow-gray-400 rounded-xl p-4 ">
+            <div className="col-span-4 md:col-span-1 shadow-xl shadow-gray-400 rounded-xl p-4 glass-effect ">
                <div className="p-2">
                   <p className="text-center font-bold pb-2"> Technologies</p>
                   <div className="grid grid-cols-3 md:grid-cols-1">
-                     <p className="text-gray-600 py-2 flex items-center">
+                     <p className=" py-2 flex items-center">
                         <RiRadioButtonFill className="pr-1" /> React
                      </p>
-                     <p className="text-gray-600 py-2 flex items-center">
+                     <p className=" py-2 flex items-center">
                         <RiRadioButtonFill className="pr-1" /> NextJS
                      </p>
-                     <p className="text-gray-600 py-2 flex items-center">
+                     <p className=" py-2 flex items-center">
                         <RiRadioButtonFill className="pr-1" /> Tailwind
                      </p>
                   </div>

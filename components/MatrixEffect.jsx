@@ -25,15 +25,14 @@ const MatrixEffect = () => {
       const rainDrops = Array.from({ length: columns }).map(() => ({
          y: Math.random() * canvas.height,
          speed: Math.random() + 0.5,
-         fontSize: getRandomFontSize(), // Taille de police aléatoire
-         hasRandomized: false
+         fontSize: getRandomFontSize(), 
       }));
 
       const draw = () => {
-         ctx.fillStyle = "rgba(0, 0, 0, 0.05)";
+         ctx.fillStyle = "rgba(3, 7, 18, 0.05)";
          ctx.fillRect(0, 0, canvas.width, canvas.height);
 
-         ctx.fillStyle = "#0F0";
+         ctx.fillStyle = "#0F0"; // Couleur des gouttes
 
          rainDrops.forEach((drop, index) => {
             const text = alphabet.charAt(
@@ -73,6 +72,7 @@ const MatrixEffect = () => {
       <canvas
          ref={canvasRef}
          className="absolute top-0 left-0 w-full h-full z-0 blur-custom"
+         style={{ background: 'transparent' }}
       />
    );
 };

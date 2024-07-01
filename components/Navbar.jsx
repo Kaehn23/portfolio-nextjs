@@ -101,7 +101,7 @@ const Navbar = () => {
             <div
                className={
                   nav
-                     ? "fixed left-0 top-0 w-[75%] sm:w-[60%] md:w-[45%] h-screen bg-[#ecf0f3] p-10 ease-in duration-300"
+                     ? "fixed left-0 top-0 w-[75%] sm:w-[60%] md:w-[45%] h-screen bg-[rgb(3,7,18)] p-10 ease-in duration-300"
                      : "fixed left-[-100%] top-0 p-10 ease-in duration-300"
                }
             >
@@ -115,13 +115,13 @@ const Navbar = () => {
                      />
                      <div
                         onClick={handleNav}
-                        className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer  "
+                        className="rounded-full shadow-lg shadow-[#0F0]/50 p-3 cursor-pointer  "
                      >
                         <AiOutlineClose size={25} />
                      </div>
                   </div>
-                  <div className="border-b border-gray-300 my-4">
-                     <p className="w-[85%] md:w-[90%] py-4">
+                  <div className="tracking-widest   my-4">
+                     <p className="w-[85%] md:w-[90%]  text-[#0F0] py-4">
                         {" "}
                         Construisons ensemble{" "}
                      </p>
@@ -170,23 +170,23 @@ const Navbar = () => {
                         </li>
                      </Link>
                   </ul>
-                  <div className="pt-40 ">
-                     <p className="uppercase tracking-widest text-[#9ebb5f]">
-                        Let's connect
+                  <div className="pt-20 ">
+                     <p className="uppercase tracking-widest text-[#0F0]">
+                        Contactez moi
                      </p>
                      <div className="flex items-center justify-between my-3 w-full sm:w-[60%] ">
                         <Link href="https://www.linkedin.com/in/iparraguirre-jeremy-3b391a2a3/">
-                           <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
+                           <div className="rounded-full shadow-lg shadow-[#0F0]/50 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
                               <FaLinkedinIn size={25} />
                            </div>
                         </Link>
                         <Link href="https://github.com/Kaehn23">
-                           <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
+                           <div className="rounded-full shadow-lg shadow-[#0F0]/50 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
                               <FaGithub size={25} />
                            </div>
                         </Link>
                         <div
-                           className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300"
+                           className="rounded-full shadow-lg shadow-[#0F0]/50 p-3 cursor-pointer hover:scale-105 ease-in duration-300"
                            onClick={handleMailClick}
                         >
                            <AiOutlineMail size={25} />

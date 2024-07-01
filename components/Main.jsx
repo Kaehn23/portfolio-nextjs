@@ -37,11 +37,10 @@ const Main = () => {
                   />
                   <div className="animate-reveal2 glass-effect ">
                      <h1 className="py-4 ">
-                        {" "}
-                        Hey, je suis{" "}
-                        <span className="text-[#0F0]"> Jeremy.</span>
+                        
+                        <p className="text-[#0F0]"> Iparraguirre Jeremy</p>
                      </h1>
-                     <h1 className="">Un développeur full stack !</h1>
+                     <h2 className="">Full-stack developper</h2>
                      <p className="py-4 max-w-[70%] m-auto ">
                         Je suis passionné par le développement web & mobile.
                      </p>

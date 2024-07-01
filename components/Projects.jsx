@@ -12,11 +12,11 @@ const Projects = () => {
          className="w-full md:h-screen p-2 flex items-center py-8"
       >
          <div className="max-w-[1240px] mx-auto px-2 py-16">
-            <p className="text-xl tracking-widest uppercase text-[#0F3] px-12">
+            <p className="text-xl tracking-widest uppercase text-[#0F3]  px-12 ">
                Projets
             </p>
             {/* <h2 className="py-4 ">Soyez curieux, cliquez !</h2> */}
-            <div className="grid h md:grid-cols-2 gap-8">
+            <div className="grid h md:grid-cols-2 gap-8 ">
                <ProjectItems
                   title="NovaTerim Mobile App"
                   altText="NovaTerim Mobile App"

@@ -17,7 +17,7 @@ html {
 
 @layer base {
   body {
-    @apply bg-[#030712] text-[#fdfdfd] tracking-wide;
+    @apply bg-[rgb(3,7,18)] text-[#fdfdfd] tracking-wide;
   }
 
   h1, h2, h3, h4, h5, h6 {
@@ -37,7 +37,7 @@ html {
   }
 
   button {
-    @apply shadow-xl shadow-gray-400 rounded-xl uppercase bg-gradient-to-r from-[#e7e8cb] to-[#9ebb5f] text-white;
+    @apply shadow-lg shadow-[#0F0]/50 rounded-xl uppercase bg-gradient-to-b from-[#ffffff] to-[#0F3]/50 text-white;
   }
 }
 
@@ -68,6 +68,10 @@ html {
   backdrop-filter: blur(2px); /* Effet de flou */
   -webkit-backdrop-filter: blur(10px); /* Support pour Safari */
   box-shadow: 0 4px 6px rgba(0, 255, 51, 0.514); /* Ombre légère */  
+}
+
+.custom-shadow-white {
+  box-shadow: 0 10px 20px rgba(255, 255, 255, 0.25), 0 6px 6px rgba(187, 192, 188, 0.795);
 }
 
 @keyframes apparition {
