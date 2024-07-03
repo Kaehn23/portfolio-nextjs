@@ -4,14 +4,12 @@ import Image from "next/image";
 function Skills() {
    return (
       <div id="skills" className="w-full lg:h-screen ">
-        
          <div className=" max-w-[1240px] mx-auto flex flex-col justify-center h-full">
-            <p className="text-xl tracking-widest uppercase text-[#0F3] px-12 ">
+            <p className="text-xl tracking-widest uppercase text-[#0F3] px-12 gl">
                {" "}
                Technologies
             </p>
 
-            {/* <h2 className="py-4"> Mes compétences : </h2> */}
             <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 relative py-2 ">
                <div className="p-6 shadow-xl custom-shadow-white rounded-xl hover:scale-105 ease-in duration-300 bg-[#0F3]/50">
                   <div className="grid grid-cols-2 gap-4 justify-center items-center ">

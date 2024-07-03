@@ -25,7 +25,7 @@ const Contact = () => {
                {/* Image Section */}
                <div className="w-full shadow-xl shadow-gray-400 glass-effect rounded-xl p-4 flex flex-col items-center justify-center">
                   <img
-                     className="rounded-xl hover:scale-105 ease-in duration-300 max-w-md w-full"
+                     className="rounded-xl hover:scale-105 ease-in duration-300 max-w-md w-full border-2 border-[#0F3]/50"
                      src="https://images.unsplash.com/photo-1423784346385-c1d4dac9893a?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                      alt="Une photo de téléphone pour pouvoir me contacter"
                   />
@@ -39,7 +39,7 @@ const Contact = () => {
                      </p>
 
                      <p className="py-4">
-                        Je suis aussi disponible pour des missions freelance.
+                        Je suis disponible pour des missions en tant que freelance.
                      </p>
                   </div>
                   <div className="pt-8 underline text-center">
@@ -49,8 +49,12 @@ const Contact = () => {
                      <a
                         href="tel:0674845013"
                         className="pt-2 font-bold flex items-center justify-center"
-                     ><span></span>
-                        <FaSquarePhone /> 06 74 84 50 13
+                     >
+                        <p className="p-2">
+                           {" "}
+                           <FaSquarePhone />{" "}
+                        </p>
+                        06 74 84 50 13
                      </a>
                   </span>
                   <div className="flex items-center justify-center py-8 gap-4">
