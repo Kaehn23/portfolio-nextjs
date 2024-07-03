@@ -3,6 +3,7 @@ import React from "react";
 import Link from "next/link";
 import { AiOutlineMail } from "react-icons/ai";
 import { FaGithub, FaLinkedinIn } from "react-icons/fa";
+import { FaSquarePhone } from "react-icons/fa6";
 import { LuArrowUp } from "react-icons/lu";
 
 const Contact = () => {
@@ -30,13 +31,13 @@ const Contact = () => {
                   />
                   <div className="text-center mt-4">
                      <h2 className="p-4">Jérémy Iparraguirre</h2>
-                     <p>Fullstack Developper</p>
+                     <p className="tracking-widest">Fullstack Developper</p>
                      <p className="py-4">
-                        Je suis actuellement à la recherche d'un stage,{" "} 
+                        Je suis actuellement à la recherche d'un stage,{" "}
                         <span className="font-bold">de 3 à 6 mois,</span> pour
                         consolider et approfondir mes compétences.
                      </p>
-                     
+
                      <p className="py-4">
                         Je suis aussi disponible pour des missions freelance.
                      </p>
@@ -44,7 +45,14 @@ const Contact = () => {
                   <div className="pt-8 underline text-center">
                      Contactez-moi :
                   </div>
-                  <div className="pt-4">0674845013</div>
+                  <span>
+                     <a
+                        href="tel:0674845013"
+                        className="pt-2 font-bold flex items-center justify-center"
+                     ><span></span>
+                        <FaSquarePhone /> 06 74 84 50 13
+                     </a>
+                  </span>
                   <div className="flex items-center justify-center py-8 gap-4">
                      <Link href="https://www.linkedin.com/in/iparraguirre-jeremy-3b391a2a3/">
                         <div className="rounded-full shadow-lg shadow-[#0F0]/50 p-6 cursor-pointer hover:scale-110 ease-in duration-300">

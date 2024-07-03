@@ -40,7 +40,7 @@ const Main = () => {
                         
                         <p className="text-[#0F0]"> Iparraguirre Jeremy</p>
                      </h1>
-                     <h2 className="">Full-stack developper</h2>
+                     <h2 className="tracking-widest">Full-stack developper</h2>
                      <p className="py-4 max-w-[70%] m-auto ">
                         Je suis passionné par le développement web & mobile.
                      </p>
