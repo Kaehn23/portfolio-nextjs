@@ -49,7 +49,7 @@ const Main = () => {
                            
                         </p>
                      </h1>
-                     <h2 className="tracking-widest">
+                     <h2 className="tracking-wider">
                         <TypewriterEffect 
                         words={words}/></h2>
                      <p className="py-4 max-w-[70%] m-auto ">
