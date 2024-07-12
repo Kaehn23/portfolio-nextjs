@@ -17,7 +17,7 @@ const Contact = () => {
          className="w-full flex flex-col items-center justify-center py-16"
       >
          <div className="max-w-4xl px-4 w-full">
-            <p className="text-xl tracking-widest uppercase text-[#0F3] text-center m-8">
+            <p className="text-xl tracking-widest uppercase text-[#0F3] text-center m-6">
                Contactez moi
             </p>
             {/* <h2 className="py-4 text-center">Par ici !</h2> */}
@@ -39,7 +39,7 @@ const Contact = () => {
                      </p>
 
                      <p className="py-4">
-                        Je suis disponible pour des missions en tant que freelance.
+                        Je suis disponible en tant que freelance.
                      </p>
                   </div>
                   <div className="pt-8 underline text-center">
@@ -77,7 +77,7 @@ const Contact = () => {
                   </div>
                </div>
             </div>
-            <div className="flex justify-center py-8">
+            <div className=" flex md:hidden justify-center py-8">
                <Link href="/">
                   <div className="rounded-full shadow-lg shadow-[#0F0]/50 p-6 cursor-pointer hover:scale-110 ease-in duration-700">
                      <LuArrowUp className="text-[#0F3]/50" size={30} />

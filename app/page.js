@@ -5,6 +5,7 @@ import About from "@/components/About";
 import Skills from "@/components/Skills";
 import Projects from "@/components/Projects";
 import Contact from "@/components/Contact";
+import ScrollToTop from "@/components/ScrollToTop";
 
 export default function Home() {
    return (
@@ -24,7 +25,7 @@ export default function Home() {
                name="viewport"
                content="width=device-width, initial-scale=1.0"
             />
-            <meta name="author" content="Jeremyy" />
+            <meta name="author" content="Jeremy" />
             <meta name="copyright" content="Copyright © 2024 Jeremy" />
          </Head>
 
@@ -37,6 +38,7 @@ export default function Home() {
             <Skills />
             <Projects />
          </main>
+         <ScrollToTop />
          <footer>
             <Contact />
          </footer>

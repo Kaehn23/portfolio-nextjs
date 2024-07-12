@@ -5,12 +5,19 @@ import Link from "next/link";
 import { AiOutlineMail } from "react-icons/ai";
 import { FaGithub, FaLinkedinIn } from "react-icons/fa";
 import MatrixEffect from "./MatrixEffect";
+import { TypewriterEffect } from "./ui/Typewritter-effect";
+import { Button } from "./ui/moving-border";
 
 const Main = () => {
    const handleMailClick = () => {
       window.location.href = "mailto:jeremy.iparraguirre@gmail.com";
    };
 
+   const words = [
+      { text: "Full-stack  ", className: "text-white-600 " },
+      { text: "Developper", className: "text-white-600 "}
+      
+   ];
    return (
       <>
          <Head>
@@ -27,6 +34,7 @@ const Main = () => {
                   <p className="uppercase text-sm tracking-widest text-white-600 my-4 md:my-6  animate-reveal glass-effect">
                      Construisons ensemble
                   </p>
+                  
 
                   {/* Image de profil */}
                   <img
@@ -37,10 +45,13 @@ const Main = () => {
                   />
                   <div className="animate-reveal2 glass-effect ">
                      <h1 className="py-4 ">
-                        
-                        <p className="text-[#0F0]"> Iparraguirre Jeremy</p>
+                        <p className="text-[#0F0]"> Iparraguirre Jeremy
+                           
+                        </p>
                      </h1>
-                     <h2 className="tracking-widest">Full-stack developper</h2>
+                     <h2 className="tracking-widest">
+                        <TypewriterEffect 
+                        words={words}/></h2>
                      <p className="py-4 max-w-[70%] m-auto ">
                         Je suis passionné par le développement web & mobile.
                      </p>
@@ -56,7 +67,7 @@ const Main = () => {
                         </div>
                      </Link>
                      <Link href="https://github.com/Kaehn23">
-                     <div className="rounded-full shadow-lg glass-effect2 animate-reveal3 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
+                        <div className="rounded-full shadow-lg glass-effect2 animate-reveal3 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
                            <FaGithub />
                         </div>
                      </Link>

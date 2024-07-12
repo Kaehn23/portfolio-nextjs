@@ -36,9 +36,7 @@ html {
     @apply cursor-pointer;
   }
 
-  button {
-    @apply shadow-lg shadow-[#0F0]/50 rounded-xl uppercase bg-gradient-to-b from-[#ffffff] to-[#0F3]/50 text-white;
-  }
+ 
 }
 
 .glass-effect {
