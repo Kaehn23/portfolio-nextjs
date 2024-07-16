@@ -14,7 +14,7 @@ const Contact = () => {
    return (
       <div
          id="contact"
-         className="w-full flex flex-col items-center justify-center py-16"
+         className="w-full flex flex-col items-center justify-center py-16 bg-[#080E1D]"
       >
          <div className="max-w-4xl px-4 w-full">
             <p className="text-xl tracking-widest uppercase text-[#0F3] text-center m-6">
