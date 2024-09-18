@@ -6,7 +6,7 @@ import { AiOutlineMail } from "react-icons/ai";
 import { FaGithub, FaLinkedinIn } from "react-icons/fa";
 import MatrixEffect from "./MatrixEffect";
 import { TypewriterEffect } from "./ui/Typewritter-effect";
-import { Button } from "./ui/moving-border";
+
 
 const Main = () => {
    const handleMailClick = () => {
@@ -31,15 +31,15 @@ const Main = () => {
             <MatrixEffect />
             <div className="max-w-[1240px] w-full h-full mx-auto  p-2 flex justify-center items-center relative z-1">
                <div className=" md:mt-16 sm:mt-8 ">
-                  <p className="uppercase text-sm tracking-widest text-white-600 my-4 md:my-6  animate-reveal glass-effect">
+                  {/* <p className="uppercase text-sm tracking-widest text-white-600 my-4 md:my-6  animate-reveal glass-effect">
                      Construisons ensemble
-                  </p>
+                  </p> */}
                   
 
                   {/* Image de profil */}
                   <img
                      src="/assets/profilePic1.png"
-                     alt="Votre Nom"
+                     alt="iparraguirre jeremy"
                      className="rounded-full shadow-xl shadow-[#0F0]/50 hover:scale-110 ease-in duration-500 mx-auto my-8 animate-reveal2"
                      style={{ maxWidth: "200px", maxHeight: "200px" }}
                   />

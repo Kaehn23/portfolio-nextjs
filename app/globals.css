@@ -7,6 +7,12 @@ html {
   scroll-behavior: smooth;
 }
 
+
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
 .bg-ecf0f3 {
   background-color: #ecf0f3;
 }

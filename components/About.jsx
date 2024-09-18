@@ -3,6 +3,7 @@ import Link from "next/link";
 import React from "react";
 import { TypewriterEffect } from "./ui/Typewritter-effect";
 
+
 const About = () => {
    const words = [
       {
@@ -17,6 +18,7 @@ const About = () => {
       { text: "!", className: "text-white-600 text-sm cursor-pointer " },
    ];
 
+   
    return (
       <div
          id="about"
