@@ -13,6 +13,10 @@ module.exports = {
   darkMode: "class",
   theme: {
     extend: {
+      boxShadow: {
+        'glow-node': '0 0 8px rgba(0, 255, 255, 0.8)',
+        'glow-line': '0 0 8px rgba(0, 255, 255, 0.5)',
+      },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":

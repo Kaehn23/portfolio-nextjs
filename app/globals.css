@@ -45,6 +45,14 @@ html, body {
  
 }
 
+.glow-node {
+  box-shadow: 0 0 6px rgba(0, 255, 255, 0.8);
+}
+
+.glow-line {
+  filter: drop-shadow(0 0 3px rgba(0, 255, 255, 0.5));
+}
+
 .glass-effect {
   background: rgba(255, 255, 255, 0.1); /* Arrière-plan semi-transparent */
   border-radius: 10px; /* Coins arrondis */

@@ -4,9 +4,9 @@ import React from "react";
 import Link from "next/link";
 import { AiOutlineMail } from "react-icons/ai";
 import { FaGithub, FaLinkedinIn } from "react-icons/fa";
-import MatrixEffect from "./MatrixEffect";
-import { TypewriterEffect } from "./ui/Typewritter-effect";
+import MatrixEffect from "./ui/MatrixEffect";
 
+import { TypewriterEffect } from "./ui/Typewritter-effect";
 
 const Main = () => {
    const handleMailClick = () => {
@@ -15,8 +15,7 @@ const Main = () => {
 
    const words = [
       { text: "Full-stack  ", className: "text-white-600 " },
-      { text: "Developper", className: "text-white-600 "}
-      
+      { text: "Developper", className: "text-white-600 " },
    ];
    return (
       <>
@@ -29,12 +28,12 @@ const Main = () => {
          </Head>
          <div id="home" className="w-full h-screen text-center relative md:p-4">
             <MatrixEffect />
+
             <div className="max-w-[1240px] w-full h-full mx-auto  p-2 flex justify-center items-center relative z-1">
                <div className=" md:mt-16 sm:mt-8 ">
                   {/* <p className="uppercase text-sm tracking-widest text-white-600 my-4 md:my-6  animate-reveal glass-effect">
                      Construisons ensemble
                   </p> */}
-                  
 
                   {/* Image de profil */}
                   <img
@@ -45,17 +44,13 @@ const Main = () => {
                   />
                   <div className="animate-reveal2 glass-effect ">
                      <h1 className="py-4 ">
-                        <p className="text-[#0F0]"> Iparraguirre Jeremy
-                           
-                        </p>
+                        <p className="text-[#0F0]"> Iparraguirre Jeremy</p>
                      </h1>
                      <h2 className="tracking-wider">
-                        <TypewriterEffect 
-                        words={words}/></h2>
-                     <p className="py-4 max-w-[70%] m-auto ">
-                        Je suis passionné par le développement web & mobile.
-                     </p>
-                     <a className="py-2 text-2xl underline " href="resume">
+                        <TypewriterEffect words={words} />
+                     </h2>
+
+                     <a className="py-2 m-4 text-2xl underline " href="resume">
                         Consultez mon CV !
                      </a>
                   </div>
