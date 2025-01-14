@@ -31,6 +31,7 @@ const Projects = () => {
                   projectUrl="/portfolio"
                   technoUsed="React / NextJS / TailwindCSS "
                />
+               
             </div>
          </div>
       </div>

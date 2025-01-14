@@ -10,7 +10,7 @@ import { TypewriterEffect } from "./ui/Typewritter-effect";
 
 const Main = () => {
    const handleMailClick = () => {
-      window.location.href = "mailto:jeremy.iparraguirre@gmail.com";
+      window.location.href = "mailto:jidev-contact@proton.me";
    };
 
    const words = [
