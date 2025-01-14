@@ -32,11 +32,7 @@ const Contact = () => {
                   <div className="text-center mt-4">
                      <h2 className="p-4">Jérémy Iparraguirre</h2>
                      <p className="tracking-widest">Fullstack Developper</p>
-                     <p className="py-4">
-                        Je suis actuellement à la recherche d'un stage,{" "}
-                        <span className="font-bold">de 3 à 6 mois,</span> pour
-                        consolider et approfondir mes compétences.
-                     </p>
+                     
 
                      <p className="py-4">
                         Je suis disponible en tant que freelance.
